@@ -4,7 +4,7 @@ package Basics_Maths;
 public class countDigits { 
     static int count_digits(int n)
     {
-       int digits = (int) Math.floor(Math.log10(n) + 1);
+        int digits = (int) Math.floor(Math.log10(n) + 1);
         return digits;
     } 
 
